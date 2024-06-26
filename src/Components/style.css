@@ -1,0 +1,17 @@
+/* Firstpage.module.css */
+.button {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background: #7a7a95;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 22px;
+    width: 50px;
+    display: block;
+  }
+  .button.disabled {
+    opacity: 0.5; /* Example: Reduce opacity to indicate disabled state */
+    cursor: not-allowed; /* Example: Change cursor to indicate disabled state */
+  }
+  
